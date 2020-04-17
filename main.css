@@ -17,7 +17,7 @@
     margin-right: auto;
     width: 30vw;
     height: 30vw;
-    border: 1px solid #0e0116;
+    border: 1px solid #2a0641;
 }
 
 .main-header-container {
@@ -51,7 +51,7 @@
 }
 
 h1, h2 {
-    color: #0e0116;
+    color: #2a0641;
 }
 
 .main-header-content h1 {
@@ -94,7 +94,7 @@ hr {
 }
 
 .firstcharacter {
-    color: rgb(29, 9, 53);
+    color: rgb(36, 11, 66);
     float: left;
     font-family: Georgia;
     font-size: 75px;
@@ -172,7 +172,7 @@ button[type=submit] {
 .footer{
     display: block;
     width: 100%;
-    background-color: #0e0116;
+    background-color: #2a0641;
     padding-top: 1em;
     padding-bottom: 1em;
     color: #fff;

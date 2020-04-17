@@ -37,7 +37,6 @@
     
     width: 20vw;
     height: 20vw;
-    background-color: RGBA(252, 102, 32, 1);
     border-radius: 100%;
     border: 1px solid white;
 }
@@ -69,18 +68,18 @@
 
     .container h1 {
         font-size:8vw;
-        margin-bottom: .5em;
+        margin-bottom: 1.5em;
     }
 
     .container p {
         font-size:4.5vw;
-        margin-top: .5em;
+        margin-top: 1.3em;
         font-weight: bold;
     }
 
     .memorial_image {
-        width: 28vw;
-        height: 28vw;
+        width: 42vw;
+        height: 42vw;
     }
     
 }

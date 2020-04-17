@@ -177,6 +177,13 @@ button[type=submit] {
     color: #fff;
     text-align: center;
 }
+.service-info{
+    margin-bottom: 3em;
+}
+.memories,.image-gallery{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 
 /* MEDIA QUERIES */
 

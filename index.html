@@ -6,26 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corina Gonzalez Guerra</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <h1>Corina Gonzalez Guerra</h1>
         <div class="memorial_image"></div>
         <p>June 20, 1954 - April 7, 2020</p>
         
+    </div> -->
+
+    <div class="main-header-container">
+        <!-- main header image content -->
+        <div class="main-bg-image-container">
+            <div class="main-bg-image"></div>
+        </div>
+
+        <!-- main header text content -->
+        <div class="main-header-content">
+            <p class="ilm">In loving memory of</p>
+            <h1 class="animated fadeIn">Corina Gonzalez Guerra</h1>
+            <p class="dates">June 20, 1954 - April 7, 2020</p>
+            <div class="img_container">
+                <div class="memorial_image animated fadeIn wow"  data-wow-duration="4s"></div>
+            </div>
+            
+        </div>
+
     </div>
-    
-    <div>
-        <p>Hello</p>
-        <p>Hello</p>
-        <p>Hello</p>
-        <p>Hello</p>
-        <p>Hello</p>
-        <p>Hello</p>
-        <p>Hello</p>
+
+    <div class="stuff">
+        <p>hi</p>
+        <p>hi</p>
+        <p>hi</p>
+        <p>hi</p>
     </div>
+
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

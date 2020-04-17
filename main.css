@@ -30,22 +30,124 @@
     font-size:3.5vw;
 }
 
+.img_container{
+   padding-top: 2em;
+}
+
 .memorial_image {
     background-color: #fff;
     background-image: url('images/headshot_hs.jpg');
     background-size: cover;
-    
-    width: 20vw;
-    height: 20vw;
-    border-radius: 100%;
-    border: 1px solid white;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 30vw;
+    border: 1px solid #0e0116;
 }
+
+
+
+/* NEW CODE */
+.main-header-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.main-bg-image-container {
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+}
+
+.main-bg-image {
+    background-image: url("images/header_butterfly.jpg");
+    background-position: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.main-header-content {
+    display: inline-block;
+    /* padding: 3em 1em 0 1em; */
+    width: 100%;
+    /* top  right bottom left*/
+    text-align: center;
+}
+
+.main-header-content h1 {
+    background: rgba(243, 224, 252, 0.562);
+    /* background-color: #fff; */
+    color: #0e0116;
+    font-size: 2.5em;
+    /* margin: 0em 0 0 0; */
+}
+
+.ilm{
+    margin-top: 3.5em;
+    margin-left:-18em;
+    line-height: 2em;
+}
+
+.dates {
+    background-color: #fff;
+    line-height: 1.5em;
+}
+
+.main-header-content p {
+    font-size: 1em;
+}
+
+.main-header-content h1>span {
+    font-weight: normal;
+}
+
+
 
 
 
  /* MEDIA QUERIES */
 
- @media only screen and (min-width: 1800px) {
+ @media (min-width: 640px) {
+    .memorial_image {
+        width: 12em;
+        height: 12em;
+    }
+}
+
+/* Mobile views */
+@media only screen and (max-width: 499px) {
+    .main-header-container {
+        height: 55vh;
+    
+    }
+
+    .ilm{
+        margin-top: 1.7em;
+        margin-left:-8em;
+        line-height: 2em;
+    }
+
+    .main-header-content h1 {
+        font-size: 2em;
+    }
+
+    .img_container{
+        padding-top: 1em;
+     }
+    .memorial_image {
+        width: 9em;
+        height: 9em;
+    }
+}
+
+
+ /* @media only screen and (min-width: 1800px) {
     .container h1 {
         font-size:6em;
     }
@@ -82,4 +184,4 @@
         height: 42vw;
     }
     
-}
+} */
